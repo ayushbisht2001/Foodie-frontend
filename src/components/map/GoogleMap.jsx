@@ -29,5 +29,5 @@ render() {
 }
  
   export default GoogleApiWrapper({
-    apiKey: 'AIzaSyBsla7CnXf23lutKbsphbnWj7JBTlNR79c'
+    apiKey: process.env.MAP_API
   })(GoogleMap);
