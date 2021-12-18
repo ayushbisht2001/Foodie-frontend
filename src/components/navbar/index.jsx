@@ -7,11 +7,9 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
 import Tooltip from '@mui/material/Tooltip';
-import { useNavigate } from 'react-router-dom';
 
 const NavBar = () => {
 
-    const navigate = useNavigate();
 
 
   return (
