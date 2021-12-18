@@ -5,7 +5,7 @@ import { createBrowserHistory } from 'history';
 function App() {
 const history = createBrowserHistory()
   return (
-    <BrowserRouter   history = {history} basename={"/"}  >
+    <BrowserRouter   history = {history} basename={"Foodie-frontend"}  >
       <Routes>
         <Route  path='/' element={<Home/>}/>        
       </Routes>
