@@ -35,14 +35,14 @@ import DialogTitle from "@mui/material/DialogTitle";
 import GoogleMap from "../map/GoogleMap";
 
 const colors = [
-  "red",
-  "blue",
-  "black",
-  "yellow",
-  "pink",
-  "green",
-  "pink",
-  "blue",
+  "#99B898 ",
+  "#FECEAB",
+  "#FF847C",
+  "#E84A5F",
+  "#2A363B",
+  "#E8175D",
+  "#2F9599",
+  "#FF4E50",
 ];
 
 const Icons = (props, rand) => {

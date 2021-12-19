@@ -26,7 +26,7 @@ const handleOrder = async(ord) => {
 
   setOrder(ord)
 
-  const data = await sortRestaurant(value, order);
+  const data = await sortRestaurant(value, ord);
     AppContextDispatch( { type : "GET_RESTAURANTS", payload : data}) 
 
 }
